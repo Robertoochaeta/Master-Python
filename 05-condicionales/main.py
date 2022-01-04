@@ -10,7 +10,7 @@ print("\n####################################################################")
 #Operadores de comparacion
 
 year = int(input("¿En que año estamos?"))
-if year >= 2022:
-    print("Estamos de 2022 en adelante")
+if year < 2022:
+    print("Estamos antes de 2022")
 else:
-    print("Es un año anterior a 2022")
+    print("Es un año inferior a 2022")
