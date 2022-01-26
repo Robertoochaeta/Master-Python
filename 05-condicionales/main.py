@@ -14,3 +14,5 @@ if year < 2022:
     print("Estamos antes de 2022")
 else:
     print("Es un año inferior a 2022")
+
+#Ejemplo 3 
