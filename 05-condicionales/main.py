@@ -36,6 +36,8 @@ else:
 print("\n###############Ejemplo 4 ###################")
 
 dia = int(input("Introduce el dia de la semana: "))
+"""
+
 if dia ==1:
     print("Es Lunes")
 else:
@@ -52,3 +54,16 @@ else:
                     print("Es viernes")
                 else:
                     print("Es fin de Semana")
+"""
+if dia == 1:
+    print("Es Lunes")
+elif dia ==2:
+    print("Es Martes")
+elif dia ==3:
+    print("Es Miercoles")
+elif dia == 4:
+    print("Es Jueves")
+elif dia == 5:
+    print("Es Viernes")
+else:
+    print("Es Fin de semana")
