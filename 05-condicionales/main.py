@@ -32,3 +32,23 @@ if edad >= mayoriaEdad:
 
 else:
     print(f" {nombre} No es Mayor de edad")
+
+print("\n###############Ejemplo 4 ###################")
+
+dia = int(input("Introduce el dia de la semana: "))
+if dia ==1:
+    print("Es Lunes")
+else:
+    if dia ==2:
+        print("Es Martes")
+    else:
+        if dia ==3:
+            print("Es Miercoles")
+        else:
+            if dia == 4:
+                print("Es Jueves")
+            else:
+                if dia == 5:
+                    print("Es viernes")
+                else:
+                    print("Es fin de Semana")
