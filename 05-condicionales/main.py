@@ -67,3 +67,10 @@ elif dia == 5:
     print("Es Viernes")
 else:
     print("Es Fin de semana")
+
+print("################################Ejemlo 5######################")
+edadMinima = 18
+edadMaxima = 65
+edadReal = int(input("Ingresa tu edad: "))
+
+if edadReal >= 18 
