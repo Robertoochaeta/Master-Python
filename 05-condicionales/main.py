@@ -20,7 +20,7 @@ print("\n####################################################################")
 nombre = 'Roberto'
 ciudad = 'San Francisco'
 continente= 'Oceania'
-edad = 22
+edad = 12
 mayoriaEdad=18
 
 if edad >= mayoriaEdad:
