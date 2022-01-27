@@ -20,7 +20,7 @@ print("\n####################################################################")
 nombre = 'Roberto'
 ciudad = 'San Francisco'
 continente= 'Oceania'
-edad = 18
+edad = 22
 mayoriaEdad=18
 
 if edad >= mayoriaEdad:
@@ -28,7 +28,7 @@ if edad >= mayoriaEdad:
     if continente != "America":
         print("El Usuario no es americano")
     else:
-        print(f" es Americano y la ciudad es {ciudad}")
+        print(f"es Americano y la ciudad es {ciudad}")
 
 else:
     print(f" {nombre} No es Mayor de edad")
