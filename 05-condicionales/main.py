@@ -68,9 +68,37 @@ elif dia == 5:
 else:
     print("Es Fin de semana")
 
+print("\U0001F602")
+
 print("################################Ejemlo 5######################")
 edadMinima = 18
 edadMaxima = 65
 edadReal = int(input("Ingresa tu edad: "))
 
-if edadReal >= 18 
+if edadReal >= 18 and edadReal <= 65:
+    print("Esta en edad de trabajar")
+else:
+    print("No esta en edad de trabajar")
+
+#print("\U0001F60D")
+
+print("################################Ejemlo 5######################")
+pais = input("Ingresa el pais: ")
+if pais== "Guatemala" or pais == "Colombia" or pais == 'España':
+    print(f"{pais} es un pais de habla hispana")
+else:
+    print(f"{pais} No es un pais de habla hispana")
+print("##################################################################")
+pais = input("Ingresa el pais: ")
+if not(pais== "Guatemala" or pais == "Colombia" or pais == 'España'):
+    print(f"{pais}  es un pais de habla hispana")
+else:
+    print(f"{pais} Es un pais de habla hispana")
+
+print("""""""""""""""""""""""""""""""")
+pais = input("Ingresa el pais: ")
+if pais!= "Guatemala" and pais !=  "Colombia" and pais != 'España':
+    print(f"{pais} No es un pais de habla hispana")
+else:
+    print(f"{pais} es un pais de habla hispana")
+
