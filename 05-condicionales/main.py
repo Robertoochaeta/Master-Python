@@ -70,17 +70,11 @@ if pais== "Guatemala" or pais == "Colombia" or pais == 'España':
     print(f"{pais} es un pais de habla hispana")
 else:
     print(f"{pais} No es un pais de habla hispana")
-print("##################################################################")
-pais = input("Ingresa el pais: ")
-if not(pais== "Guatemala" or pais == "Colombia" or pais == 'España'):
-    print(f"{pais}  es un pais de habla hispana")
-else:
-    print(f"{pais} Es un pais de habla hispana")
 
-print("""""""""""""""""""""""""""""""")
+
+
 pais = input("Ingresa el pais: ")
 if pais!= "Guatemala" and pais !=  "Colombia" and pais != 'España':
     print(f"{pais} No es un pais de habla hispana")
 else:
     print(f"{pais} es un pais de habla hispana")
-
